@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'fungest-mobile',
+  appId: 'io.ionic.fungestcost',
+  appName: 'fungest-mobile-cost',
   webDir: 'build',
   bundledWebRuntime: false
 };
