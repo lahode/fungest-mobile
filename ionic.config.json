@@ -1,0 +1,7 @@
+{
+  "name": "fungest-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
