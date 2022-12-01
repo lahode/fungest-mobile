@@ -13,7 +13,7 @@ import LogoutButton from "../components/auth/logout-button";
 import Profile from "../components/auth/user-profile";
 
 const Home: React.FC = () => {
-  const { isLoading, isAuthenticated } = useAuth0();
+  const { isAuthenticated } = useAuth0();
 
   /*
   if (isLoading) {

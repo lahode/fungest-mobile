@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import { domain as auth0Domain, clientId, callbackUri } from "./auth.config";
+import { domain as auth0Domain, clientId, callbackUri, audience, scope } from "./auth.config";
 
 const container = document.getElementById('root');
 const root = createRoot(container!);
@@ -13,6 +13,8 @@ root.render(
     domain={auth0Domain}
     clientId={clientId}
     redirectUri={callbackUri}
+    audience={audience}
+    scope={scope}
   >
     <App />
   </Auth0Provider>,

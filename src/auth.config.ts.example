@@ -2,6 +2,8 @@ import { isPlatform } from "@ionic/react";
 
 export const domain = "{DOMAIN}";
 export const clientId = "{CLIENT_ID}";
+export const audience = "{AUDIENCE}";
+export const scope = "offline_access";
 const appId = "io.ionic.fungestcost";
 const localhost = "http://localhost:8100";
 
